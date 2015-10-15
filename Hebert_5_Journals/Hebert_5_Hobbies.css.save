@@ -1,0 +1,58 @@
+  body {
+    margin: 0 auto;
+    width: 700px;
+  }
+
+  a, a:visited {
+    font-family: sans-serif;      
+    font-size: 23px; 
+    text-decoration: none; 
+ }
+
+  header {
+    height: 100px;
+    text-align: center;
+    margin-bottom: 5px;
+ }
+   
+  h1 {
+    font-family: sans-serif;
+    font-size: 72px;
+    margin: 0;
+    text-align: center;
+ } 
+
+  nav {
+    height: 100px;
+    margin-bottom: 5px;
+ }
+
+  nav ul li {
+    display: inline-bloakc;
+    float: left;
+    list-style-type: none;  
+    margin: 0;
+}
+
+  section {
+    float: left;
+    height: 495px;
+    width: 495px;
+}
+
+  aside {
+    float: right;
+    height: 245px;
+    width: 200px;
+    margin-bottom: 5px;
+}
+
+  aside ul {
+    margin: 0;
+    padding: 0;
+}
+
+  aside ul li {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding-top: 5px

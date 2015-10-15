@@ -1,0 +1,17 @@
+1.ol, li=ordered list, list item
+2.ul= unordered list
+3.tr=table
+4.td= cell within table
+5.a=hyperlink
+6.aside=
+7.footer=defines a footer for document or section
+8.margin-left, margin-right= sets margin to left, sets margin to right
+9.width=sets the width of an element.
+10.height=sets height of the element
+11.background-color=sets background color
+12.color=specifies color of text
+13.a:hover=defines the apprearance when hovered
+14.the others are:visited,link,active
+15.span, div=(non-semantic)means NOTHING by themselves
+16.text-decoration
+17.the new semantic elements are-details,main,aside,figcaption,figure,footer,header,mark,nav,section,summary,time

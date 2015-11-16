@@ -1,0 +1,154 @@
+.body {
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: o;
+}
+
+.Bluclock {
+    position:absolute;
+    z-index:-1;
+    Height:1000px;
+    width:1000px;
+    border-radius:8;
+    background-color:BLUE;
+    left:50%;
+    top:50%;
+    color:BLUE;
+}
+.Time12 {
+    position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:50%;
+    top:90%;
+    color:WHITE;
+}
+
+.Time11 {
+     position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:55%;
+    top:90%;
+    color:WHITE;
+}
+.Time10 {
+    position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:60%;
+    top:90%;
+    color:WHITE;
+}
+.Time9 {
+    position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:75%;
+    top:90%;
+    color:WHITE;
+}
+.Time8 {
+    position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:60%;
+    top:90%;
+    color:WHITE;
+}
+.Time7 {
+    position:absolute;
+    z-index:-1;.
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:55%;
+    top:90%;
+    color:WHITE;
+}
+.Time6 {
+    position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:50%;
+    top:10%;
+    color:WHITE;
+}
+.Time5 {
+    position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:45%;
+    top:%;
+    color:WHITE;
+}
+.Time4 {
+    position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:40%;
+    top:45.2%;
+    color:WHITE;
+}
+.Time3 {
+    position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:35%;
+    top:56.8%;
+    color:WHITE;
+}
+.Time2 {
+    position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:40%;
+    top:68.4%;
+    color:WHITE;
+}
+.Time1 {
+    position:absolute;
+    z-index:-1;
+    Height:100px;
+    width:100px;
+    border-radius:8;
+    background-color:WHITE;
+    left:45%;
+    top:80%;
+    color:WHITE;
+}
+ 

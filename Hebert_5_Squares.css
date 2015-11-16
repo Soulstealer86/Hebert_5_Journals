@@ -1,0 +1,127 @@
+<div id="SQUAREZ">
+.body {
+width:auto;
+Height:auto;
+Backgound:BLACK;
+}
+.SUN {
+position:fixed;
+left:0px;
+top:0px;
+width:100px;
+Height:100px;
+background-color:fcff00;
+Z-index: 100;
+}
+
+.MERCURY {
+position:fixed;
+left:108px;
+top:108px;
+width:10px;
+Height:10px;
+background-color:fc2500;
+Z-index: 100;
+}
+
+.VENUS {
+position:fixed;
+left:140px;
+top:140px;
+width:15px;
+Height:15px;
+background-color:f4a713;
+Z-index: 100;
+}
+
+.EARTH {
+position:fixed;
+left:178px;
+top:178px;
+width:32;
+Height:32;
+background-color:0065ff;
+Z-index: 100;
+}
+
+.LAND {
+position:fixed;
+left:183px;
+top:190px;
+width:9;
+Height:11;
+background-color:108807;
+Z-index: 100;
+}
+
+.CLOUD {
+position:fixed;
+left:192px;
+top:198px;
+width:15;
+Height:9;
+background-color:ffffff;
+Z-index: 100;
+}
+
+.MARS {
+position:fixed;
+left:229px;
+top:228px;
+width:26;
+Height:26;
+background-color:88070a;
+Z-index: 100;
+}
+
+.JUPITER {
+position:fixed;
+left:299px;
+top:298px;
+width:90;
+Height:90;
+background-color:e5d65b;
+Z-index: 100;
+}
+
+.SATURN {
+position:fixed;
+left:408px;
+top:404px;
+width:66;
+Height:62;
+background-color:ffeb7a;
+Z-index: 100;
+}
+
+
+.URANUS {
+position:fixed;
+left:488px;
+top:488px;
+width:51;
+Height:51;
+background-color:6a9f97;
+Z-index: 100;
+}
+
+.NEPTUNE {
+position:fixed;
+left:550px;
+top:550px;
+width:45;
+Height:45;
+background-color:01baff;
+Z-index: 100;
+}
+
+.PLUTO {
+position:fixed;
+left:618px;
+top:618px;
+width:7;
+Height:7;
+background-color:405557;
+Z-index: 100;
+}
+

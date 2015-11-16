@@ -1,0 +1,174 @@
+body {
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+margin-top: o;
+}
+
+.first {
+background-color:yellow;
+height:50px;
+width:50px;
+transition-duration:2s;
+}
+
+.first:hover {
+background-color:blue;
+background-color:red;
+background-color:purple;
+background-color:green;
+background-color:pink;
+background-color:violet;
+transition:10s ease;
+}
+
+.colorChange {
+background-color:orange;
+height:50px;
+width:50px;
+transition-duration:2s;
+}
+
+.colorChange:hover {
+background-color:green;
+transition-duration:2s;
+}
+
+.sizeChange {
+background-color:red;
+height:50px;
+width:50px;
+transition-duration:2s;
+}
+
+.sizeChange:hover {
+height:25px;
+width:25px;
+transition-duration:2s;
+}
+
+.locChange {
+background-color:red;
+height:50px;
+width:50px;
+transition-duration:2s;
+position:relative;
+left:0px;
+}
+
+.locChange:hover {
+left:200px;
+transition-duration:2s;
+}
+
+.opChange {
+background-color:red;
+height:50px;
+width:50px;
+transition-duration:2s;
+opacity:100;
+}
+
+.opChange:hover {
+opacity:0;
+transition-duration:2s;
+}
+
+.rotateChange {
+background-color:brown;
+height:50px;
+width:50px;
+transition-duration:2s;
+}
+
+.rotateChange:hover {
+transform:rotate(180deg);
+transition-duration:2s;
+}
+
+.veiw {
+height:50px;
+width:300px;
+
+perspective: 160px;
+}
+
+.veiw :hover{
+
+}
+
+.rotate3DChange {
+background-color:hotpink;
+height:50px;
+width:300px;
+
+transform: rotateY(0deg);
+transition-duration:2s;
+}
+
+.rotate3DChange:hover {
+transform:rotateY(-360deg);
+transition-duration:2s;
+}
+
+.parent {
+background-color:grey;
+height:300px;
+width:300px;
+transition-duration:2s;
+}
+
+.child {
+background-color:blue;
+height:50px;
+width:50px;
+position:relative;
+top:100px;
+left:100px:
+transition-duration:2s;
+}
+
+. parent:hover > .child{
+height:0px;
+width:0px;
+transition-duration:2s;
+}
+
+.brother {
+background-color:lightblue;
+height:50px;
+width:50px;
+transition-duration:2s;
+}
+
+.sister {
+background-color:pink;
+height:50px;
+width:50px;
+margin:0px;
+transition-duration:2s;
+}
+
+.brother + .sister:hover {
+margin-left:20px;
+transition-duration:2s;
+}
+
+.last {
+background-color:purple;
+height:50px;
+width:50px;
+}
+
+.last:hover {
+background-color:purple;
+height:20px;
+width:20px;
+}
+
+.last:hover + .first{
+background-color:purple;
+height:50px;
+width:50px;
+transition-duration:2s;
+}

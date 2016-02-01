@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="64" tileheight="64" nextobjectid="1">
+ <tileset firstgid="1" name="Synthetic Fantasy" tilewidth="8" tileheight="8" tilecount="16384">
+  <image source="../Downloads/synthetic_fantasy_01_diffuse.png" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="16385" name="Seamless Space" tilewidth="8" tileheight="8" tilecount="16384">
+  <image source="../Downloads/seamless space.PNG" width="1024" height="1024"/>
+ </tileset>
+ <tileset firstgid="32769" name="Powerup Flare 3" tilewidth="8" tileheight="8" tilecount="1024">
+  <image source="../Downloads/powerup_flare3.jpg" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="33793" name="Blue Flare" tilewidth="8" tileheight="8" tilecount="1023">
+  <image source="../Downloads/blue_flare.jpg" width="265" height="253"/>
+ </tileset>
+ <tileset firstgid="34816" name="CIRCLES!" tilewidth="8" tileheight="8" tilecount="5625">
+  <image source="../Downloads/ani.gif" width="600" height="600"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1lC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAbnEAAAQ==
+  </data>
+ </layer>
+</map>

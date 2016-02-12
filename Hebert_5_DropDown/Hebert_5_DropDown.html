@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>DropDown</title>
+    <meta name="keywords" content="D22 is Epics; Ninja!">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="Hebert_5_DropDown.css">
+
+<!-- dd menu -->
+<script type="text/javascript">
+var timout       =500;
+var closetimer   =0;
+var ddmenuitem   =0;
+
+//open hidden layer
+function mopen(id)
+{
+    // cancel close timer
+    mcancelclosetime();
+
+    // close old layer
+    if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';
+
+    //get new layer and show it
+    ddmenuitem = document.getElementById(id); 
+    ddmenuitem.style.visibility = ='visible';
+
+}
+// close showed layer
+function mclose()
+{
+    if(ddmenuitem_ ddmenuitem.style.visibility ='hidden';
+}
+
+// go close timer
+function mclosetime()
+{
+    closetimer = window.setTimout(mclose, timout);
+}
+
+// cancel close timer
+function mcancelclosetime()
+{
+    if(closetimer)
+    {
+        window.clearTimout(closetimer);
+        closetimer = null
+    }
+}
+
+//close layer when click-out
+document.onclick = mclose;
+//
+<scipt>
+
+</head>
+<body>
+
+<h1>DropDown Menu</h1>
+
+<p>This menu can be located anywhere on a page:</p>
+
+<ul id="sddm">
+    <li><a href="#" onmouseover="mopen('m1')" onmouseout="mclosetime()">Home</a>
+    <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+    <a href="#">Concept Zeppelin</a>
+    <a href="#">Concept Stealth Aircraft</a>
+    <a href="#">Concept Starship</a>
+    <a href="#">Concept Helicopter</a>
+    <a href="#">Concept Airship</a>
+</li>
+    <li><a href="#" onmouseover="mopen('m2')" onmouseout="mclosetime()">Home</a>
+    <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+    <a href="#">Concept Spaceship</a>
+    <a href="#">Concept Spaceship</a>
+    <a href="#">Concept Spaceship</a>
+    <a href="#">Concept Spaceship</a>
+    <a href="#">Concept Space Station</a>
+</li>
+    <li><a href="#" onmouseover="mopen('m3')" onmouseout="mclosetime()">Home</a>
+    <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+    <a href="#">Concept Car</a>
+    <a href="#">Concept Truck</a>
+    <a href="#">Concept Board</a>
+    <a href="#">Concept R.V.</a>
+    <a href="#">Concept MotorCycles</a>
+</li>
+    <li><a href="#" onmouseover="mopen('m4')" onmouseout="mclosetime()">Home</a>
+    <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+    <a href="#">Concept SpeedBoat</a>
+    <a href="#">Concept Cruise Ship</a>
+    <a href="#">Concept Yacht</a>
+    <a href="#">Concept Jet Ski</a>
+    <a href="#">Concept Aircraft Carrier</a>
+</li>
+    <li><a href="#" onmouseover="mopen('m5')" onmouseout="mclosetime()">Home</a>
+    <div id="m1" onmouseover="mcancelclosetime()" onmouseout="mclosetime()">
+    <a href="#">Home</a>
+    <a href="#">Complaints</a>
+    <a href="#">Nothing to see here</a>
+    <a href="#"></a>
+    <a href="#"></a>
+</li>
+</ul>
+<div style="clear:both"></div>
+
+<div style="clear:both"></div>
+
+</body>
+</html>

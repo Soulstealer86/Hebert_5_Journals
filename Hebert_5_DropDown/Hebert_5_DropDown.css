@@ -1,0 +1,80 @@
+body
+{position: absolute;
+text-align: center;
+width: 1000px;
+right: 20%;
+background-color: #C8C8C8;
+height: 90%}
+
+h1
+{font-size: 60px;
+width: 100%;
+height: 10%;
+text-align: center;
+background-color: #B8B8B8;
+margin-top: 50px}
+
+aside
+{background-color:0392A6;
+width:150px;
+height:450px;
+position:absolute;
+right:-40%;
+top:0%;
+border-style:double;
+
+}
+
+#sddm
+{margin: 0px;
+padding: 10px;
+z-index: 30;
+position: absolute;
+right: 29%;
+top: 12.5%}
+
+#sddm li
+{margin: 0;
+padding: 0;
+list-style: none;
+float: left;
+font: bold 11px arial}
+
+#sddm li a
+{display: block;
+margin: 0 1px 0 0;
+padding: 4px 10px;
+width: 60px;
+background: #5970B2;
+color: #FFF;
+text-align: center;
+text-decoration: none}
+
+#sddm li a:hover
+{background: #49A3FF}
+
+#sddm div
+{position: absolute;
+visibility: hidden;
+margin: 0;
+padding: 0;
+background: #EAEBD8;
+border: 1px solid #5970B2}
+
+#sddm div a
+{position: relative;
+display: block;
+margin: 0;
+padding: 5px 10px;
+width: auto;
+white-space: nowrap;
+text-align: left;
+text-decoration: none;
+background: #EAEBD8;
+color: #2875DE;
+font: 11px arial}
+
+#sddm div a:hover
+{background: #49A3FF;
+color: #FFF}
+

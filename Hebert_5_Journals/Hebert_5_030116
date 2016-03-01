@@ -1,0 +1,9 @@
+What is the document object model (DOM)?
+platform and language-neutral interface that allows programs 
+and scripts to dynamically access and update the content, structure, and style of a document.
+
+How is it important for web design?
+You can change text with other words
+
+How is it especially important for JavaScript? [Code please]
+With the HTML DOM, JavaScript can access and change all the elements of an HTML document

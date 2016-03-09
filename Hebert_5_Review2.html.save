@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.body {
+width:auto;
+Height:auto;
+background-color:#B1E;
+}
+.orangerectangle1 {
+position:absolute;
+left:0px;
+top:100px;
+width:300px;
+Height:50px;
+background-color:#91B4BC;
+Z-index: 100;
+}
+
+.orangerectangle2 {
+position:absolute;
+left:70%;
+top:%;
+width:100px;
+Height:100px;
+background-color:#91B4BC;
+Z-index: 100;
+}
+
+</style>
+<title>
+Review2
+</title>
+</header>
+<body>
+<div class="bluerectangle">
+</div>
+<div class="bluesquare1">
+</div>
+</body>
+</html>
+

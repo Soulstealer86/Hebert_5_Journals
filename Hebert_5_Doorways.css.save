@@ -1,0 +1,169 @@
+.body {
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+margin-top: o;
+}
+
+.door1 {
+width: 100px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+background-color:blue;
+}
+
+.door1:hover {
+background-color:white;
+transition:1s ease;
+opacity:0;
+background-color:blue;
+transition:2s ease;
+}
+
+
+
+.door2 {
+border-radius: 50%:
+width: 200px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+}
+
+.door2:hover{
+background-color:red;
+background-color:purple;
+transition:10s ease;
+opacity:0;
+}
+
+
+.door3 {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+}
+
+.door3:hover {
+background-color:blue;
+background-color:red;
+background-color:purple;
+transition:10s ease;
+opacity:0;
+}
+
+.door4 {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+}
+
+.door4:hover {
+background-color:blue;
+background-color:red;
+background-color:purple;
+transition:10s ease;
+opacity:0;
+}
+
+.door5 {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+}
+
+.door5:hover {
+background-color:blue;
+background-color:red;
+background-color:purple;
+transition:10s ease;
+opacity:0;
+}
+
+
+.door6 {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+}
+
+.door6:hover {
+background-color:blue;
+background-color:red;
+background-color:purple;
+transition:10s ease;
+opacity:0;
+}
+
+.door7 {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+}
+
+.door7:hover {
+background-color:blue;
+background-color:red;
+background-color:purple;
+transition:10s ease;
+opacity:0;
+}
+
+.door8 {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+}
+
+.door8:hover {
+background-color:;
+background-color:;
+background-color:;
+transition:10s ease;
+opacity:0;
+}
+
+.door9 {
+border-radius: 50%;
+width: 200px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+}
+
+.door9:hover {
+background-color:;
+background-color:;
+background-color:;
+transition:10s ease;
+opacity:0;
+}

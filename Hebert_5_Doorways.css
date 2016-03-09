@@ -1,0 +1,166 @@
+.body {
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+margin-top: o;
+}
+
+.door1 {
+width: 100px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+background-color:blue;
+position:absolute;
+right:40%;
+top:10%;
+}
+
+.door1:hover {
+transition:2s ease;
+opacity:0;
+rotate:360;
+}
+
+.door2 {
+width: 100px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+position:absolute;
+right:40%;
+top:10%;}
+
+.door2:hover {
+transition:2s ease;
+opacity:0;
+rotate:360;
+}
+
+.door3 {
+width: 100px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+position:absolute;
+right:40%;
+top:10%;
+}
+
+.door3:hover {
+transition:2s ease;
+opacity:0;
+rotate:360;
+}
+
+.door4 {
+width: 100px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+position:absolute;
+right:40%;
+top:10%;}
+
+.door4:hover {
+transition:2s ease;
+opacity:0;
+rotate:360;
+}
+
+.door5 {
+width: 100px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+position:absolute;
+right:40%;
+top:10%;
+}
+
+.door5:hover {
+transition:2s ease;
+opacity:0;
+rotate:360;
+}
+
+.door6 {
+width: 100px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+position:absolute;
+right:40%;
+top:10%;
+}
+
+.door6:hover {
+transition:2s ease;
+opacity:0;
+rotate:360;
+}
+
+.door7 {
+width: 100px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+position:absolute;
+right:40%;
+top:10%;
+}
+
+.door7:hover {
+transition:2s ease;
+opacity:0;
+rotate:360;
+}
+
+.door8 {
+width: 100px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+position:absolute;
+right:40%;
+top:10%;
+}
+
+.door8:hover {
+transition:2s ease;
+opacity:0;
+rotate:360;
+}
+
+.door9 {
+width: 100px;
+height: 200px;
+transition-duration:2s;
+opacity:100;
+transform:rotate(180deg);
+background-color:blue;
+position:absolute;
+right:40%;
+top:10%;
+}
+
+.door9:hover {
+transition:2s ease;
+opacity:0;
+rotate:360;
+}
+
